@@ -1,0 +1,101 @@
+
+/* Background */
+#grad {
+    background: linear-gradient(to bottom right, #e43a15, #e65245);
+}
+
+#sectionbody {
+    display: flex;
+}
+
+
+#sectionproduct {
+    display: flex;
+    margin-bottom: 35px;
+}
+
+#sectionproductdescription {
+    width: 65%;
+    margin-right: 25px;
+}
+
+
+#asideleft{
+    width: 20%;
+    margin-right: 25px;
+}
+
+#imggif {
+    border-radius: 25px;
+    width: 20%;
+    height: 97.75%;
+    position: fixed;
+}
+
+#center {
+    border-radius: 25px;
+    background: #FFFFFF;
+    width: 80%;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 25px; 
+}
+
+
+
+#imgbread {
+    border-radius: 25px;
+    width: 35%;
+    height: 35%;
+    float: right;
+    margin-top: 15px;
+}
+
+h1 {
+    font-family: 'Baloo Paaji', cursive;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+h2 {
+    font-family: 'Baloo Paaji', cursive;
+    font-size: 30px;
+    color: #e43a15
+}
+
+p {
+    font-family: 'Baloo Paaji', cursive;
+}
+
+.priceproduct {
+    font-family: 'Baloo Paaji', cursive;
+    color: #f39c12;
+    font-size: 20px; 
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+}
+
+.buybtn{
+    font-family: 'Baloo Paaji', cursive;
+    width: 15%;
+    height: 10%;
+    border: none;
+    border-radius: 8px;
+    color: #FFFFFF;
+    background-color: #e43a15
+}
+
+.buybtn:hover {
+    background-color: #27ae60;
+}
+
+.buybtn:active { 
+    background-color: #bdc3c7;
+}
+
+.buybtn:focus {outline:0;}
